@@ -1,0 +1,5 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=NCommandExampleConsole
+Comment=Run NCommandExampleConsole at startup
+Exec=/usr/bin/lxterminal -e "/bin/bash -c 'cd /home/pi/[deployment-folder]; chmod 777 NCommandExampleConsole.sh; ./NCommandExampleConsole.sh; read -n 1 -s'"
