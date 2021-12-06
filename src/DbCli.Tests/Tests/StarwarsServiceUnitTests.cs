@@ -1,11 +1,11 @@
 using FluentAssertions;
-using Tectil.NCommand.Template.Abstractions.Settings;
-using Tectil.NCommand.Template.Services;
+using Tectil.DbCli.Abstractions.Settings;
+using Tectil.DbCli.Services;
 using Tectil.NCommand.Testing.Infrastructure.Helpers;
 using Tectil.NCommand.Testing.Infrastructure.Traits;
 using Xunit;
 
-namespace Tectil.NCommand.Template.Tests
+namespace Tectil.DbCli.Tests
 {
     [UnitTest]
     public class StarwarsServiceUnitTests

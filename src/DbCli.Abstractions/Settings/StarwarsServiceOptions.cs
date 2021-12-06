@@ -1,4 +1,4 @@
-﻿namespace Tectil.NCommand.Template.Abstractions.Settings
+﻿namespace Tectil.DbCli.Abstractions.Settings
 {
     public class StarwarsServiceOptions
     {

@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <AssemblyName>Tectil.NCommand.Template.Services</AssemblyName>
-    <RootNamespace>Tectil.NCommand.Template.Services</RootNamespace>
+    <AssemblyName>Tectil.DbCli.Services</AssemblyName>
+    <RootNamespace>Tectil.DbCli.Services</RootNamespace>
     <LangVersion>9.0</LangVersion>
     <IsPackable>false</IsPackable>
   </PropertyGroup>
@@ -16,7 +16,7 @@
   </ItemGroup>
   
   <ItemGroup>
-    <ProjectReference Include="..\NCommand.Template.Abstractions\NCommand.Template.Abstractions.csproj" />
+    <ProjectReference Include="..\DbCli.Abstractions\DbCli.Abstractions.csproj" />
   </ItemGroup>
   
 </Project>

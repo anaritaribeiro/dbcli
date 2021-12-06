@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <AssemblyName>Tectil.NCommand.Template.Commands</AssemblyName>
-    <RootNamespace>Tectil.NCommand.Template.Commands</RootNamespace>
+    <AssemblyName>Tectil.DbCli.Commands</AssemblyName>
+    <RootNamespace>Tectil.DbCli.Commands</RootNamespace>
     <LangVersion>9.0</LangVersion>
     <IsPackable>false</IsPackable>
   </PropertyGroup>
@@ -16,7 +16,7 @@
   </ItemGroup>
   
   <ItemGroup>
-    <ProjectReference Include="..\NCommand.Template.Services\NCommand.Template.Services.csproj" />
+    <ProjectReference Include="..\DbCli.Services\DbCli.Services.csproj" />
   </ItemGroup>
 
   <ItemGroup>

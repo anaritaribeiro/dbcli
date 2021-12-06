@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using Tectil.NCommand.Abstractions;
-using Tectil.NCommand.Template.Abstractions.Contracts;
+using Tectil.DbCli.Abstractions.Contracts;
 
-namespace Tectil.NCommand.Template.Commands.Commands
+namespace Tectil.DbCli.Commands.Commands
 {
     /// <summary>
     /// Starwars commands.

@@ -4,7 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
     <AssemblyName>NCommandTemplateHost</AssemblyName>
-    <RootNamespace>Tectil.NCommand.Template.Host</RootNamespace>
+    <RootNamespace>Tectil.DbCli.Host</RootNamespace>
     <LangVersion>9.0</LangVersion>
     <ApplicationIcon>NCommandNugetIcon.ico</ApplicationIcon>
     <IsPackable>false</IsPackable>
@@ -26,8 +26,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NCommand.Template.Commands\NCommand.Template.Commands.csproj" />
-    <ProjectReference Include="..\NCommand.Template.Services\NCommand.Template.Services.csproj" />
+    <ProjectReference Include="..\DbCli.Commands\DbCli.Commands.csproj" />
+    <ProjectReference Include="..\DbCli.Services\DbCli.Services.csproj" />
   </ItemGroup>
 
 </Project>

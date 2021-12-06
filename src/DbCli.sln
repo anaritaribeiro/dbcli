@@ -7,13 +7,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Start", "01 Start", "{A3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Implementation", "02 Implementation", "{65583E4D-3CEF-4E72-A854-132EB74AB82B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NCommand.Template.Services", "NCommand.Template.Services\NCommand.Template.Services.csproj", "{722F875E-50BE-4CA7-9E18-CB477E0ECBA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbCli.Services", "DbCli.Services\DbCli.Services.csproj", "{722F875E-50BE-4CA7-9E18-CB477E0ECBA5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NCommand.Template.Host", "NCommand.Template.Host\NCommand.Template.Host.csproj", "{419B8633-08BB-4192-9727-87FE1BD3CCAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbCli.Host", "DbCli.Host\DbCli.Host.csproj", "{419B8633-08BB-4192-9727-87FE1BD3CCAD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NCommand.Template.Commands", "NCommand.Template.Commands\NCommand.Template.Commands.csproj", "{3850C08A-29EC-4993-A90B-BA46F5D9A207}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbCli.Commands", "DbCli.Commands\DbCli.Commands.csproj", "{3850C08A-29EC-4993-A90B-BA46F5D9A207}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NCommand.Template.Tests", "NCommand.Template.Tests\NCommand.Template.Tests.csproj", "{C2300AFB-0876-4849-8783-874B608176A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbCli.Tests", "DbCli.Tests\DbCli.Tests.csproj", "{C2300AFB-0876-4849-8783-874B608176A9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 Readme", "00 Readme", "{6034A83A-D2C8-466D-B664-98ABD8AB3634}"
 	ProjectSection(SolutionItems) = preProject
@@ -21,7 +21,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 Readme", "00 Readme", "{
 		Nuget.Config = Nuget.Config
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NCommand.Template.Abstractions", "NCommand.Template.Abstractions\NCommand.Template.Abstractions.csproj", "{731BED7B-4517-4783-89D1-FE0C38CC144C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbCli.Abstractions", "DbCli.Abstractions\DbCli.Abstractions.csproj", "{731BED7B-4517-4783-89D1-FE0C38CC144C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

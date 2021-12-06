@@ -3,8 +3,8 @@
 	<PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
 		<IsPackable>false</IsPackable>
-		<AssemblyName>Tectil.NCommand.Template.Tests</AssemblyName>
-		<RootNamespace>Tectil.NCommand.Template.Tests</RootNamespace>
+		<AssemblyName>Tectil.DbCli.Tests</AssemblyName>
+		<RootNamespace>Tectil.DbCli.Tests</RootNamespace>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -38,7 +38,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\NCommand.Template.Services\NCommand.Template.Services.csproj" />
+	  <ProjectReference Include="..\DbCli.Services\DbCli.Services.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>

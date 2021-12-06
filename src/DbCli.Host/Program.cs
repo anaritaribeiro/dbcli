@@ -5,9 +5,9 @@ using System.Reflection;
 using System.Threading.Tasks;
 using Tectil.NCommand.Abstractions;
 using Tectil.NCommand.Base;
-using Tectil.NCommand.Template.Commands.Commands;
+using Tectil.DbCli.Commands.Commands;
 
-namespace Tectil.NCommand.Template.Host
+namespace Tectil.DbCli.Host
 {
     class Program
     {

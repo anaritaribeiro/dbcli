@@ -1,9 +1,9 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
-using Tectil.NCommand.Template.Abstractions.Contracts;
-using Tectil.NCommand.Template.Abstractions.Settings;
+using Tectil.DbCli.Abstractions.Contracts;
+using Tectil.DbCli.Abstractions.Settings;
 
-namespace Tectil.NCommand.Template.Services
+namespace Tectil.DbCli.Services
 {
     public static class ServiceConfiguration
     {

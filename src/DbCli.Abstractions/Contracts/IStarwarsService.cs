@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Tectil.NCommand.Template.Abstractions.Contracts
+namespace Tectil.DbCli.Abstractions.Contracts
 {
     public interface IStarwarsService
     {

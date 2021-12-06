@@ -2,9 +2,9 @@
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Threading.Tasks;
-using Tectil.NCommand.Template.Tests.Base;
+using Tectil.DbCli.Tests.Base;
 
-namespace Tectil.NCommand.Template.Tests
+namespace Tectil.DbCli.Tests
 {
     /// <summary>
     /// Starwars service test configuration. Service provider setup is done in base class.

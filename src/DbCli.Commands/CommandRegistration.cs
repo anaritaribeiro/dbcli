@@ -1,9 +1,9 @@
 ﻿using System.Threading.Tasks;
 using Tectil.NCommand.Abstractions;
-using Tectil.NCommand.Template.Abstractions.Settings;
-using Tectil.NCommand.Template.Services;
+using Tectil.DbCli.Abstractions.Settings;
+using Tectil.DbCli.Services;
 
-namespace Tectil.NCommand.Template.Commands
+namespace Tectil.DbCli.Commands
 {
     public class CommandRegistration
         : INCommandRegistrationBase

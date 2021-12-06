@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <AssemblyName>Tectil.NCommand.Template.Abstractions</AssemblyName>
-    <RootNamespace>Tectil.NCommand.Template.Abstractions</RootNamespace>
+    <AssemblyName>Tectil.DbCli.Abstractions</AssemblyName>
+    <RootNamespace>Tectil.DbCli.Abstractions</RootNamespace>
     <LangVersion>9.0</LangVersion>
     <IsPackable>false</IsPackable>
   </PropertyGroup>

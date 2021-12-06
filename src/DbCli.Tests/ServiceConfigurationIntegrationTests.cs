@@ -1,11 +1,11 @@
 using System;
 using System.Threading.Tasks;
-using Tectil.NCommand.Template.Abstractions.Contracts;
-using Tectil.NCommand.Template.Tests.Base;
+using Tectil.DbCli.Abstractions.Contracts;
+using Tectil.DbCli.Tests.Base;
 using Tectil.NCommand.Testing.Infrastructure.Traits;
 using Xunit;
 
-namespace Tectil.NCommand.Template.Tests
+namespace Tectil.DbCli.Tests
 {
     [IntegrationTest]
     public class ServiceConfigurationTests

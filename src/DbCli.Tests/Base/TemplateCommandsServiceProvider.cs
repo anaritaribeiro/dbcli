@@ -2,13 +2,13 @@
 using Microsoft.Extensions.DependencyInjection;
 using System.Collections.Generic;
 using System.Reflection;
-using Tectil.NCommand.Template.Abstractions.Contracts;
-using Tectil.NCommand.Template.Abstractions.Settings;
-using Tectil.NCommand.Template.Services;
+using Tectil.DbCli.Abstractions.Contracts;
+using Tectil.DbCli.Abstractions.Settings;
+using Tectil.DbCli.Services;
 using Tectil.NCommand.Testing.Infrastructure;
 using Tectil.NCommand.Testing.Infrastructure.Helpers;
 
-namespace Tectil.NCommand.Template.Tests.Base
+namespace Tectil.DbCli.Tests.Base
 {
     /// <summary>
     /// DokVorlage ServiceProvider. Setup services and mocks for testclasses.
